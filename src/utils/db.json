@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "partida": "1000 MP",
+    "descripcion": "Canal Electrónico",
+    "aplicabilidad": "ATM",
+    "cumplimiento": "6.000.000",
+    "action": "Ver detalle"
+  },
+  {
+    "id": 2,
+    "partida": "100 MP",
+    "descripcion": "Canal Electrónico",
+    "aplicabilidad": "POS",
+    "cumplimiento": "4.000.000",
+    "action": "Ver detalle"
+  }
+]
