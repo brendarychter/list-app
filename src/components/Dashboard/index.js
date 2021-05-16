@@ -34,7 +34,7 @@ export default function Dashboard() {
   useEffect(() => {
     db.map((item) => {
       item['download'] = (
-        <button onClick={() => getCsvByName(item.id)} className={'download-button'}>
+        <button onClick={() => getCsvByName(item.partida)} className={'download-button'}>
           Descargar
         </button>
       );
