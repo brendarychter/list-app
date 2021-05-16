@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import db from '../.././utils/db.json';
 import MaterialTable from 'material-table';
+import { saveAs } from 'file-saver';
 
 export default function Dashboard() {
   const [data, setData] = useState([]),
@@ -21,8 +22,8 @@ export default function Dashboard() {
     const fetchData = async () => {
       try {
         const response = await fetch(url, requestOptions);
-      let blob = await response.blob();
-      await saveAs(blob, 'partida');
+        let blob = await response.blob();
+        await saveAs(blob, 'partida');
       } catch (error) {
         console.log('error', error);
       }
