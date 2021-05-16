@@ -15,7 +15,7 @@ export default function Dashboard() {
     const url = 'http://localhost:80/obtenerArchivo',
       requestOptions = {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ filename: id })
       };
 

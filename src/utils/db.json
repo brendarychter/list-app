@@ -1,18 +1,14 @@
 [
   {
-    "partida": "p100m",
-    "descripcion": "p100m"
+    "partida": "p100m"
   },
   {
-    "partida": "p100mp",
-    "descripcion": "p100mp"
+    "partida": "p100mp"
   },
   {
-    "partida": "p50m",
-    "descripcion": "p50m"
+    "partida": "p50m"
   },
   {
-    "partida": "p50mp",
-    "descripcion": "p50mp"
+    "partida": "p50mp"
   }
 ]
