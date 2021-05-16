@@ -1,18 +1,18 @@
 [
   {
-    "id": 1,
-    "partida": "1000 MP",
-    "descripcion": "Canal Electrónico",
-    "aplicabilidad": "ATM",
-    "cumplimiento": "6.000.000",
-    "action": "Ver detalle"
+    "partida": "p100m",
+    "descripcion": "p100m"
   },
   {
-    "id": 2,
-    "partida": "100 MP",
-    "descripcion": "Canal Electrónico",
-    "aplicabilidad": "POS",
-    "cumplimiento": "4.000.000",
-    "action": "Ver detalle"
+    "partida": "p100mp",
+    "descripcion": "p100mp"
+  },
+  {
+    "partida": "p50m",
+    "descripcion": "p50m"
+  },
+  {
+    "partida": "p50mp",
+    "descripcion": "p50mp"
   }
 ]
