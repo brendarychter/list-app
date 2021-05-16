@@ -14,15 +14,15 @@ export default function Dashboard() {
     const url = 'http://localhost:80/obtenerArchivo',
       requestOptions = {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: JSON.stringify({ filename: id })
       };
 
     const fetchData = async () => {
       try {
         const response = await fetch(url, requestOptions);
-        const json = await response.json();
-        setData(json.data);
+      let blob = await response.blob();
+      await saveAs(blob, 'partida');
       } catch (error) {
         console.log('error', error);
       }
