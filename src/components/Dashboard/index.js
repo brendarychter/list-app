@@ -11,7 +11,7 @@ export default function Dashboard() {
     ];
 
   const getCsvByName = (id) => {
-    const url = '/obtenerArchivo',
+    const url = 'http://localhost:80/obtenerArchivo',
       requestOptions = {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
